@@ -9,7 +9,8 @@
 
 @font-face {
   font-family: 'Montserrat';
-  src: local('Montserrat'), url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+  src: local('Montserrat'),
+    url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
 }
 
 body {
@@ -32,6 +33,7 @@ header h1 {
   font-weight: 500;
   text-transform: uppercase;
 }
+
 
 .ellipse {
   align-self: center;
@@ -58,9 +60,9 @@ header h1 {
   background-color: rgb(242, 238, 245);
   position: absolute;
   z-index: -9999;
-} 
+}
 
-div[data-testid = solar-system] h2 {
+div[data-testid='solar-system'] h2 {
   text-align: center;
   margin-bottom: 40px;
   font-size: 33px;
@@ -82,39 +84,47 @@ div[data-testid = solar-system] h2 {
   font-size: 16px;
 }
 
-img[src *= "Mercurio"]{
+img[src*='Mercurio'] {
   width: 41px;
 }
 
-img[src *= "Venus"]{
+img[src*='Venus'] {
   width: 102px;
 }
 
-img[src *= "Terra"]{
+img[src*='Terra'] {
   width: 106px;
 }
 
-img[src *= "Marte"]{
+img[src*='Marte'] {
   width: 66px;
 }
 
-img[src *= "Jupiter"]{
+img[src*='Jupiter'] {
   width: 272px;
 }
 
-img[src *= "Saturno"]{
+img[src*='Saturno'] {
   width: 282.41px;
 }
 
-img[src *= "Urano"]{
+img[src*='Urano'] {
   width: 144px;
 }
 
-img[src *= "Netuno"]{
+img[src*='Netuno'] {
   width: 144px;
 }
 
-div[data-testid= "missions"]{
+img[src*='png'] {
+  transition: transform 700ms;
+}
+
+img[src*='png']:hover {
+  transform: translateY(-10px);
+}
+
+div[data-testid='missions'] {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -127,7 +137,7 @@ div[data-testid= "missions"]{
   border-radius: 20px;
 }
 
-div[data-testid= "missions"] h2 {
+div[data-testid='missions'] h2 {
   position: absolute;
   top: 700px;
   font-weight: 300;
@@ -150,28 +160,39 @@ div[data-testid= "missions"] h2 {
   height: 180px;
   border-radius: 20px;
   border: 1px solid white;
+  transition: 700ms;
+}
+
+.mission-container:hover{
+  background-color: rgba(106, 109, 124, 0.281);
+  transition: 500ms;
 }
 
 .dates {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-top: 20px;
 }
 
-.name-mission {
-  font-size: 24px;
-  text-transform: uppercase;
-  margin: 20px;
-  height: 50px;
-}
-
-div[data-testid="mission-card"] {
+div[data-testid='mission-card'] {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.year-mission, .country-mission , .destiny {
+.name-mission {
+  display: flex;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 20px;
+  align-items: center;
+  height: 50px;
+}
+
+.year-mission,
+.country-mission,
+.destiny {
   display: flex;
   flex-direction: row;
   gap: 5px;
