@@ -195,5 +195,5 @@ div[data-testid='mission-card'] {
   display: flex;
   flex-direction: row;
   gap: 5px;
-  margin: 10px 20px;
+  margin: 8px 20px;
 }
