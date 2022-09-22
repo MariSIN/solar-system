@@ -1,3 +1,117 @@
 .App {
   text-align: center;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+
+body {
+  background-image: url('./images/RingedSpicyKodiakbear\ \(1\).gif');
+  color: rgba(242, 238, 245, 0.929);;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 180px;
+}
+
+header h1 {
+  color: rgba(242, 238, 245, 0.929);
+  font-family: 'Montserrat';
+  font-size: 40px;
+}
+
+.ellipse {
+  align-self: center;
+  position: absolute;
+  width: 120.07px;
+  height: 307.45px;
+  text-align: center;
+  border-radius: 100%;
+  transform: matrix(0.58, 0.78, -0.87, 0.56, 0, 0);
+  border: rgba(247, 245, 248, 0.576) 2px solid;
+}
+
+.planets {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.planets::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: rgb(242, 238, 245);
+  position: absolute;
+  z-index: -9999;
+} 
+
+div[data-testid = solar-system] h2 {
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  transform: translateY(100%);
+}
+
+img[src *= "Mercurio"]{
+  width: 41px;
+}
+
+img[src *= "Venus"]{
+  width: 102px;
+}
+
+img[src *= "Terra"]{
+  width: 106px;
+}
+
+img[src *= "Marte"]{
+  width: 66px;
+}
+
+img[src *= "Jupiter"]{
+  width: 272px;
+}
+
+img[src *= "Saturno"]{
+  width: 282.41px;
+}
+
+img[src *= "Urano"]{
+  width: 144px;
+}
+
+img[src *= "Netuno"]{
+  width: 144px;
+}
+
+div[data-testid= "missions"]{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+
