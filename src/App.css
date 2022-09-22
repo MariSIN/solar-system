@@ -130,10 +130,9 @@ div[data-testid='missions'] {
   flex-wrap: wrap;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.098);
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 75px;
+  margin: 75px 75px;
   padding-top: 100px;
+  padding-bottom: 50px ;
   border-radius: 20px;
 }
 
