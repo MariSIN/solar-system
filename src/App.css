@@ -175,6 +175,6 @@ div[data-testid="mission-card"] {
 .year-mission, .country-mission , .destiny {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 5px;
   margin: 10px 20px;
 }
