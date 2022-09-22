@@ -34,7 +34,6 @@ header h1 {
   text-transform: uppercase;
 }
 
-
 .ellipse {
   align-self: center;
   position: absolute;
@@ -132,7 +131,7 @@ div[data-testid='missions'] {
   background-color: rgba(255, 255, 255, 0.098);
   margin: 75px 75px;
   padding-top: 100px;
-  padding-bottom: 50px ;
+  padding-bottom: 50px;
   border-radius: 20px;
 }
 
@@ -162,7 +161,7 @@ div[data-testid='missions'] h2 {
   transition: 700ms;
 }
 
-.mission-container:hover{
+.mission-container:hover {
   background-color: rgba(106, 109, 124, 0.281);
   transition: 500ms;
 }
