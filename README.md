@@ -1,12 +1,8 @@
 # Boas-vindas ao repositório do projeto Solar System!
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀 
+Para realizar o projeto, foi realizado cada passo descrito a seguir.
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-# Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe.
+Aqui você pode acessar diretamente o site: https://marisin.github.io/solar-system/
 
 # Entregáveis
 
