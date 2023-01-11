@@ -16,8 +16,6 @@ Aqui você pode acessar diretamente o site: https://marisin.github.io/solar-syst
 <details>
   <summary><strong>:memo: Habilidades</strong></summary><br />
 
-  Neste projeto, verificaremos se você é capaz de:
-
   * Utilizar JSX no React;
 
   * Utilizar corretamente o método `render()` para renderizar seus componentes;
