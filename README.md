@@ -1,6 +1,6 @@
 # Boas-vindas ao repositório do projeto Solar System!
 
-Aqui você pode acessar diretamente o site: https://marisin.github.io/solar-system/
+:paperclip: https://marisin.github.io/solar-system/
 
 <details>
   <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
