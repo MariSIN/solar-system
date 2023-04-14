@@ -5,7 +5,7 @@
 <details>
   <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
 
-  Neste projeto você desenvolverá um modelo do sistema solar! Ao utilizar essa aplicação, uma pessoa usuária deverá ser capaz de:
+  Neste projeto foi desenvolvido um modelo do sistema solar! Ao utilizar essa aplicação, uma pessoa usuária deverá ser capaz de:
 
     * Visualizar todos os planetas do sistema solar renderizados na tela;
 
